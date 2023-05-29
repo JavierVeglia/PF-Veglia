@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title>Clase Y | Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Montserrat Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS File -->
+        <link rel="stylesheet" href="./CSS/styles.css">
+
+    </head>
+
+    <body>
+
+        <input type="checkbox" id="toggle">
+
+        <nav> <!---NAVBAR-->
+            <a class="navbar-brand" href="#">
+                Clase Y
+            </a>
+
+            <label class="navbar-toggler" for="toggle"> 
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Producto</a>
+                    <ul class="menu-vertical">
+                        <li><a href="./remeras.html">Remeras</a></li>
+                        <li><a href="./buzos.html">Buzos</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Sobre nosotros</a>
+                </li>
+            </ul>
+
+            <!--CART-->
+            <div class="container-icon">
+                <a href="./cart.html"><img src="./img/shopping_bag.png" alt="cart"></a>
+                <div class="count-products">
+                    <span id="contador-productos">1</span>
+                </div>
+            </div>  
+            
+
+        </nav>
+         <!--Buscador-->
+        <div class="buscador">
+            <form action="/buscar" method="get">
+                <input type="text" name="q" placeholder="Buscar...">
+            </form>
+        </div>
+
+        <!--Texto central-->
+        <div class="welcome-text">
+            <center>
+                <h3>
+                    Unisex
+                </h3>
+            </center>
+        </div>
+        <!---CARDS-->
+        <div class="container-category">
+            <div class="item">
+                <a href="remeras.html">
+                    <figure>
+                        <img src="./img/remera.webp" alt="producto" />
+                    </figure>
+                    <div class="info-product">
+                        <h2>Remeras</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="buzos.html">
+                    <figure>
+                        <img src="img/buzo.webp" alt="producto" />
+                    </figure>
+                    <div class="info-product">
+                        <h2>Buzos</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!--Contacto-->
+        <footer class="contacto">
+            <p>Contáctanos:</p>
+            <ul>
+                <li>Teléfono: 123-456-7890</li>
+                <li>Email: info@clasey.com</li>
+                <li>Dirección: Calle 123, Ciudad, Estado, País</li>
+            </ul>
+        </footer>
+    </body>
+
+
+</html>

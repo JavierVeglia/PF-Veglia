@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Clase Y|Producto</title>
+		<link rel="stylesheet" href="./CSS/styles.css" />
+	</head>
+    <body>
+        <input type="checkbox" id="toggle">
+
+    <nav>
+        <a class="navbar-brand" href="#">
+        Clase Y
+        </a>
+
+        <label class="navbar-toggler" for="toggle"> 
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Producto</a>
+                <ul class="menu-vertical">
+                    <li><a href="./remeras.html">Remeras</a></li>
+                    <li><a href="./buzos.html">Buzos</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Sobre nosotros</a>
+            </li>
+            </ul>
+
+            <!--CART-->
+            <div class="container-icon">
+                <a href="./cart.html"><img src="./img/shopping_bag.png" alt="cart"></a>
+            <div class="count-products">
+            <div>
+                <span id="contador-productos">1</span>
+            </div>
+
+    </nav>
+            <!--Buscador-->
+            <div class="buscador">
+                <form action="/buscar" method="get">
+                    <input type="text" name="q" placeholder="Buscar...">
+                </form>
+            </div>
+
+			</div>
+		</div>
+        <!--Producto seleccionado-->
+        <div class="productoSeleccionado">
+            <div class="producto-imagen">
+                <div class="carrousel">
+                    <div class="conteCarrousel">
+                        <div class="itemCarrousel" id="itemCarrousel-1">
+                            <div class="itemCarrouselTarjeta"><img src="./img/remera.webp" alt="Remera1"></div>
+                            <div class="itemCarrouselArrows">
+                                <a href="#itemCarrousel-3">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a href="#itemCarrousel-2">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="itemCarrousel" id="itemCarrousel-2">
+                            <div class="itemCarrouselTarjeta"><img src="./img/remera2.jpg" alt="remera2"></div>
+                            <div class="itemCarrouselArrows">
+                                <a href="#itemCarrousel-1">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a href="#itemCarrousel-3">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="itemCarrousel" id="itemCarrousel-3">
+                            <div class="itemCarrouselTarjeta"><img src="./img/remera3.jpg" alt="Remera3"></div>
+                            <div class="itemCarrouselArrows">
+                                <a href="#itemCarrousel-2">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a href="#itemCarrousel-1">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Opción de carrousel-->
+                    <div class="conteCarrouselController">
+                        <a href="#itemCarrousel-1">•</a>
+                        <a href="#itemCarrousel-2">•</a>
+                        <a href="#itemCarrousel-3">•</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Info de producto-->
+            <div class="productoInfo">
+                <h1>Nombre del Producto</h1>
+                <h2 class="talleTexto">Talle</h2>
+
+                <!--Talle de ropa-->
+                <div class="tallesProducto">
+                  <button class="talle">S</button>
+                  <button class="talle">M</button>
+                  <button class="talle">L</button>
+                  <button class="talle">XL</button>
+                  <button class="talle">XXL</button>
+                  <button class="talle">XXXL</button>
+                </div>
+
+                <!--Precio-->
+                <div class="precio">
+                    <h3>Precio:$800 </h3>
+                </div>
+                <div class="botonesProducto">
+                  <button class="buttonProducto">Añadir a Carrito</button>
+                  <button class="buttonProducto">Realizar Compra</button>
+                </div>
+              </div>
+              
+
+        </div>
+
+        <!--Contacto-->
+        <footer class="contacto">
+            <p>Contáctanos:</p>
+            <ul>
+              <li>Teléfono: 123-456-7890</li>
+              <li>Email: info@clasey.com</li>
+              <li>Dirección: Calle 123, Ciudad, Estado, País</li>
+            </ul>
+          </footer>
+	</body>
+</html>
