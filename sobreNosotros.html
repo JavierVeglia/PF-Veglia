@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport"content="width=device-width, initial-scale=1.0"		/>
+		<title>Clase Y|Producto</title>
+		<link rel="stylesheet" href="./CSS/styles.css" />
+	</head>
+	<body>
+        <input type="checkbox" id="toggle">
+
+
+        <!---Nav-bar-->
+        <nav>
+            <a class="navbar-brand" href="#">
+            Clase Y
+            </a>
+
+            <label class="navbar-toggler" for="toggle"> 
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Producto</a>
+                    <ul class="menu-vertical">
+                        <li><a href="./remeras.html">Remeras</a></li>
+                        <li><a href="./buzos.html">Buzos</a></li>
+                    </ul>
+                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobreNosotros.html">Sobre nosotros</a>
+                    </li>
+            </ul>
+
+            <!--CART-->
+            <div class="container-icon">
+                <a href="./cart.html"><img src="./img/shopping_bag.png" alt="cart"></a>
+            <div class="count-products">
+            <!--FIN DE CART-->
+            <div>
+                <span id="contador-productos">1</span>
+            </div>
+
+        </nav>
+
+        <!--Buscador-->
+        <div class="buscador">
+            <form action="/buscar" method="get">
+                <input type="text" name="q" placeholder="Buscar...">
+            </form>
+        </div>
+
+        <div class="sobreNosotros">
+            <h1 class="tituloSobre">Sobre nosotros</h1>
+            <div class="parrafoSobre">
+                <p >Somos un grupo de amigos que decidimos diseñar remeras y buzos que se expresan de una manera sencilla.</p> 
+            </div>
+            <div class="direccion">Puedes encontrarnos aqui:</div>
+            <div class="maps">  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387555.1493952864!2d-74.15530846977553!3d40.65147102619742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20EE.%20UU.!5e0!3m2!1ses!2smx!4v1623823091891!5m2!1ses!2smx" allowfullscreen="" loading="lazy">  </iframe>
+            </div>
+        </div>
+          
+
+            <!--Contacto-->
+        <footer class="contacto">
+            <p>Contáctanos:</p>
+            <ul>
+              <li>Teléfono: 123-456-7890</li>
+              <li>Email: info@clasey.com</li>
+              <li>Dirección: Calle 123, Ciudad, Estado, País</li>
+            </ul>
+        </footer>
+	</body>
+</html>
