@@ -452,15 +452,6 @@ a {
   }
 }
 
-@media (max-width: 393px) {
-  .card {
-    width: 80%;
-  }
-
-  .tituloCart {
-    font-size: 14px;
-  }
-}
 
 /*Talles*/
 
@@ -556,6 +547,17 @@ a {
     margin: 0;
   }
 }
+
+@media (max-width: 393px) {
+  .card {
+    width: 80% !important;
+  }
+
+  .tituloCart {
+    font-size: 14px;
+  }
+}
+
 
 .quantity {
   display: flex;
