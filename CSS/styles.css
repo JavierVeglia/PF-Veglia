@@ -421,10 +421,10 @@ a:active {
 }
 @media (max-width: 393px) {
   .card {
-    width: 80%;
+    width: 80% !important;
   }
   .tituloCart {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 }
 /*Talles*/
